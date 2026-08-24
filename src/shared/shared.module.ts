@@ -1,12 +1,3 @@
-/**********************************
- * @Description: 公共模块
- * @Author: Ronnie Zhang
- * @LastEditor: Ronnie Zhang
- * @LastEditTime: 2023/12/07 20:29:25
- * @Email: zclzone@outlook.com
- * Copyright © 2023 Ronnie Zhang(大脸怪) | https://isme.top
- **********************************/
-
 import { Global, Module, ValidationPipe } from '@nestjs/common';
 import { SharedService } from './shared.service';
 import { APP_FILTER, APP_INTERCEPTOR, APP_PIPE } from '@nestjs/core';
